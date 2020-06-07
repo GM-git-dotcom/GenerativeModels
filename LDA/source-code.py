@@ -115,7 +115,7 @@ LDAvis_data_filepath = os.path.join('./ldavis_prepared_'+str(number_topics))
 if 1 == 1:
     LDAvis_prepared = sklearn_lda.prepare(lda, count_data, count_vectorizer)
     
-    with open(LDAvis_data_Filepath, 'w') as f:
+    with open(LDAvis_data_filepath, 'w') as f:
         pickle.dump(LDAvis_prepared, f)
 #Load the pre-prepared pyLDAvis data from disk
 with open(LDAvis_data_filepath) as f:
