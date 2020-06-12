@@ -1,5 +1,5 @@
 #HMM
-'''This code is adapted by https://zerowithdot.com/hidden-markov-model/'''
+'''This code is adapted from https://zerowithdot.com/hidden-markov-model/'''
 import numpy as np
 import pandas as pd
 
